@@ -43,6 +43,7 @@ The workflow consists of 6 stages:
   - `working/serp-analysis-report.md`
   - `working/seo-optimization-guide.md`
   - Content type
+  - **Project context:** Client voice guidelines, target audience, brand messaging (from CLAUDE.md)
 - **Output:** `working/content-outline.md`
 - **Purpose:** Create detailed content outline
 
@@ -52,6 +53,7 @@ The workflow consists of 6 stages:
   - `working/content-outline.md`
   - `working/seo-optimization-guide.md`
   - Content type
+  - **Project context:** Brand voice (blog vs service page tone), client guidelines, messaging (from CLAUDE.md)
 - **Output:** `working/content-draft.md`
 - **Purpose:** Write complete first draft
 
@@ -60,6 +62,7 @@ The workflow consists of 6 stages:
 - **Input:**
   - `working/content-draft.md`
   - Target keyword
+  - **Project context:** Website URL (from CLAUDE.md)
 - **Output:** `working/internal-linking-recommendations.md`
 - **Purpose:** Identify internal link opportunities
 
@@ -70,6 +73,7 @@ The workflow consists of 6 stages:
   - `working/internal-linking-recommendations.md`
   - `working/content-outline.md`
   - `working/seo-optimization-guide.md`
+  - **Project context:** Brand voice, SEO checklist validation, client guidelines (from CLAUDE.md)
 - **Output:** `drafts/[url-slug]-[content-type].md`
 - **Purpose:** Final polish, validation, ready-to-publish content
 
@@ -82,13 +86,23 @@ When invoked, follow these steps:
    - Confirm content type (default to "blog post" if not specified)
    - Note any additional context
 
-2. **Create Working Directory:**
+2. **Load Project Memory:**
+   - Read `.claude/CLAUDE.md` to get Mojo Media business context
+   - Extract key information:
+     - Client name and business overview
+     - Target audience (ICP)
+     - Key messaging and differentiators
+     - Brand voice (blog vs service page tone)
+     - Any industry-specific requirements
+   - This context will be passed to agents that need it (content-strategist, content-writer, seo-editor)
+
+3. **Create Working Directory:**
    - Ensure `working/` directory exists (create if needed)
 
-3. **Run Agents in Sequence:**
+4. **Run Agents in Sequence:**
    - Use the Task tool with appropriate subagent_type for each stage
    - Wait for each agent to complete before starting the next
-   - Pass file paths and context to each agent as needed
+   - Pass file paths, project memory context, and requirements to each agent
    - Monitor for errors and report them immediately
 
 4. **Verify Outputs:**
