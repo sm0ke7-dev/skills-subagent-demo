@@ -1,0 +1,11 @@
+﻿# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Windows reserved-name artifact (local)
+nul
