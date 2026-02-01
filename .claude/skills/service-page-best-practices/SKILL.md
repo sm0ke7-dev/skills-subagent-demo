@@ -18,7 +18,7 @@
 
 **Technical SEO:**
 - Primary keyword in: Title tag, H1, URL slug (3-Kings Rule)
-- Schema markup (Service, LocalBusiness, FAQPage)
+- Schema markup handled by Rank Math plugin
 - Page speed (under 3 seconds load time)
 - Mobile-first design
 - Clear internal linking
@@ -63,7 +63,6 @@
 **FAQ Section (150-200 words)**
 - 5-8 common questions
 - H3 format for each question
-- FAQPage schema markup required
 - Addresses objections (pricing, timeline, process)
 
 **Closing CTA (50-100 words)**
@@ -116,20 +115,6 @@
 - ❌ Long storytelling paragraphs
 - ❌ Generic buzzwords ("innovative," "cutting-edge," "solutions")
 - ❌ Weak CTAs ("Learn more," "Click here")
-
----
-
-## Schema Markup Requirements
-
-**Always Include:**
-1. **Service Schema** (primary)
-2. **LocalBusiness Schema** (if serving geographic markets)
-3. **FAQPage Schema** (for FAQ section)
-
-**Optional:**
-- BreadcrumbList (navigation)
-- Organization (company info, ratings)
-- AggregateRating (if displaying reviews)
 
 ---
 
@@ -191,7 +176,6 @@
 ❌ **Generic headlines** (using literal keywords instead of outcomes)
 ❌ **No social proof** (missing testimonials, portfolio, stats)
 ❌ **Blog voice on service pages** (conversational tone, bucket brigades)
-❌ **No schema markup** (missing Service, LocalBusiness, FAQ schemas)
 ❌ **Slow page speed** (images not optimized, heavy scripts)
 ❌ **Unclear next steps** (vague CTAs, too many options)
 
@@ -215,12 +199,10 @@
 - ✓ White space between sections?
 
 **Technical SEO:**
-- ✓ Service schema implemented?
-- ✓ LocalBusiness schema (if applicable)?
-- ✓ FAQPage schema for FAQ section?
 - ✓ Page speed under 3 seconds?
 - ✓ Mobile-responsive (tested on devices)?
 - ✓ 3-5 internal links included?
+- ✓ Schema handled by Rank Math plugin?
 
 **Conversion Optimization:**
 - ✓ Clear, action-oriented CTAs?

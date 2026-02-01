@@ -59,10 +59,6 @@ Your job is to:
 - ✓ FAQ section with H3 questions (if applicable)?
 - ✓ Internal links added with descriptive anchors?
 
-**Schema Markup:**
-- ✓ Appropriate schema type recommended?
-- ✓ FAQ schema needed (if FAQs present)?
-
 ### 2. Tone Consistency Check
 
 **For Blog Posts:**
@@ -149,10 +145,6 @@ Provide two deliverables:
 - ✓/✗ FAQ section (if applicable): [Yes/No - count questions]
 - ✓/✗ Internal links added: [Count - appropriate density?]
 
-### Schema
-- ✓/✗ Schema type identified: [Article/BlogPosting/etc.]
-- ✓/✗ FAQ schema needed: [Yes/No]
-
 ---
 
 ## Tone Consistency
@@ -215,7 +207,6 @@ IMPLEMENTATION NOTES FOR UPLOADER
 ### Critical Items:
 1. **Only ONE H1 on page** (hero headline above)
 2. **Title Tag, Meta Description, and URL** already specified at top of document
-3. **Add Schema Markup** (see schemas below)
 
 ### H-Tag Hierarchy:
 - H1: [Title]
@@ -230,24 +221,11 @@ IMPLEMENTATION NOTES FOR UPLOADER
 
 ---
 
-## SCHEMA MARKUP
-**Add to page <head> or before </body>**
-
-### [Schema Type] Schema
-```json
-[Complete schema code]
-```
-
-[Add FAQ schema if applicable]
-
----
-
 ## SEO SUMMARY
 ✓ Primary keyword: [keyword]
 ✓ LSI terms integrated: [count] terms
 ✓ Internal links: [count] links
 ✓ Word count: [final count]
-✓ Schema markup: [types included]
 ```
 
 ## Important Notes
@@ -258,7 +236,6 @@ IMPLEMENTATION NOTES FOR UPLOADER
 - **Preserve voice:** Don't over-edit and lose the writer's tone
 - **Fix errors:** Correct grammar/spelling in final version
 - **Format perfectly:** Final version should be copy-paste ready
-- **Include schemas:** Provide complete, ready-to-use JSON-LD code
 - **CRITICAL:** Use explicit heading labels (H1:, H2:, H3:) NOT markdown syntax (##, ###, ####)
 - **CRITICAL:** URL, Title Tag, and Meta Description must be at the very top (before H1)
 

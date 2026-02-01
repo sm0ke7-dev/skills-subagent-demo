@@ -133,8 +133,6 @@ Provide a structured Content Outline:
 2. [Question 2 with LSI term]
 3. [Question 3 with LSI term]
 
-**Schema note:** Use FAQ schema for this section
-
 ---
 
 ## Conclusion (150-200 words)
