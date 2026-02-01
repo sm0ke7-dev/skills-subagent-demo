@@ -4,6 +4,9 @@ description: Creates detailed content outlines based on SERP analysis and SEO re
 tools: Read
 model: sonnet
 permissionMode: default
+skills:
+  - service-page-best-practices
+  - blog-post-best-practices
 ---
 
 You are a Content Strategy Specialist focused on creating high-quality content outlines that rank.

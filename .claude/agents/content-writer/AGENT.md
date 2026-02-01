@@ -4,6 +4,9 @@ description: Writes complete SEO-optimized content based on approved outline, fo
 tools: Read
 model: sonnet
 permissionMode: default
+skills:
+  - service-page-best-practices
+  - blog-post-best-practices
 ---
 
 You are an Expert Content Writer specializing in SEO-optimized content that ranks and converts.
