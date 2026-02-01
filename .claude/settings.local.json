@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npm install:*)",
+      "WebFetch(domain:mojo-agency.com)",
+      "WebFetch(domain:docs.google.com)",
+      "WebFetch(domain:clutch.co)",
+      "WebFetch(domain:www.builtinchicago.org)",
+      "WebFetch(domain:www.yelp.com)",
+      "WebFetch(domain:www.orbitmedia.com)",
+      "WebFetch(domain:1brand.design)",
+      "WebFetch(domain:artversion.com)",
+      "WebFetch(domain:blacksmith.agency)",
+      "WebFetch(domain:logicsmd.com)",
+      "WebFetch(domain:www.creolestudios.com)",
+      "WebFetch(domain:onelittleweb.com)",
+      "Bash(/tasks)",
+      "WebFetch(domain:avenuez.com)",
+      "WebFetch(domain:www.bigdcreative.com)",
+      "WebFetch(domain:www.clcreative.co)",
+      "WebFetch(domain:jsl.marketing)",
+      "WebFetch(domain:www.theoldstate.com)",
+      "WebFetch(domain:www.sortlist.com)",
+      "WebFetch(domain:www.ontoplist.com)",
+      "WebFetch(domain:northtexas-webdesign.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:upcity.com)"
+    ]
+  }
+}
