@@ -4,6 +4,8 @@ description: Identifies internal linking opportunities by analyzing existing sit
 tools: Read, Grep, Glob, WebFetch
 model: haiku
 permissionMode: default
+skills:
+  - mojo-internal-links
 ---
 
 You are an Internal Linking Specialist focused on building strong site architecture through strategic internal links.
