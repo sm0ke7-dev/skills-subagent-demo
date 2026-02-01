@@ -1,7 +1,7 @@
 ---
 name: serp-analyzer
 description: Analyzes top-ranking pages for target keywords to identify search intent, topic coverage, and content structure patterns. Use proactively when SEO content requests are made.
-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
+tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, Write
 model: haiku
 permissionMode: default
 ---
@@ -82,6 +82,14 @@ Provide a structured SERP Analysis Report:
 - [Insight 2: Gaps or opportunities]
 - [Insight 3: Unique angles to consider]
 ```
+
+## Save Output to File
+
+**IMPORTANT:** After completing your analysis, save the SERP Analysis Report to:
+- **Path:** `working/serp-analysis-report.md`
+- **Format:** Markdown with the structure shown above
+
+This file will be used by downstream agents (content-strategist, content-writer).
 
 ## Important Notes
 

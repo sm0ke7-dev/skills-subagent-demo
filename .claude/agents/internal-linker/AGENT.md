@@ -1,7 +1,7 @@
 ---
 name: internal-linker
 description: Identifies internal linking opportunities by analyzing existing site content and recommending relevant links with anchor text. Use after content draft is complete.
-tools: Read, Grep, Glob, WebFetch
+tools: Read, Grep, Glob, WebFetch, Write
 model: haiku
 permissionMode: default
 skills:
@@ -130,6 +130,14 @@ If the new content should be linked FROM existing pages:
 - Too many links (overwhelming, looks spammy)
 - Links to irrelevant pages (just for SEO)
 - Linking to the same page multiple times in one article
+
+## Save Output to File
+
+**IMPORTANT:** After completing your link recommendations, save the Internal Linking Recommendations to:
+- **Path:** `working/internal-linking-recommendations.md`
+- **Format:** Markdown with the structure shown above
+
+This file will be used by the seo-editor agent.
 
 ## Important Notes
 

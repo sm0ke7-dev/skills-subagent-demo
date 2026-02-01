@@ -1,7 +1,7 @@
 ---
 name: seo-optimizer
 description: Identifies keyword variations, LSI terms, and entities for SEO content. Use proactively when SEO content requests are made.
-tools: Read, WebSearch, WebFetch
+tools: Read, WebSearch, WebFetch, Write
 model: haiku
 permissionMode: default
 ---
@@ -89,6 +89,14 @@ Provide a structured SEO Optimization Guide:
 ✓ LSI terms distributed throughout content
 ✓ Entities mentioned for topical authority
 ```
+
+## Save Output to File
+
+**IMPORTANT:** After completing your SEO analysis, save the SEO Optimization Guide to:
+- **Path:** `working/seo-optimization-guide.md`
+- **Format:** Markdown with the structure shown above
+
+This file will be used by downstream agents (content-strategist, content-writer, seo-editor).
 
 ## Important Notes
 

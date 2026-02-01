@@ -1,7 +1,7 @@
 ---
 name: content-writer
 description: Writes complete SEO-optimized content based on approved outline, following client voice guidelines and integrating LSI terms naturally. Use after content outline is approved.
-tools: Read
+tools: Read, Write
 model: sonnet
 permissionMode: default
 skills:
@@ -209,6 +209,14 @@ IMPLEMENTATION NOTES:
 - **Headings first:** Try to work LSI into H2/H3 headings
 - **Natural mentions:** Use in context where it adds value
 - **FAQs are goldmine:** Great place for long-tail LSI terms
+
+## Save Output to File
+
+**IMPORTANT:** After completing your draft, save the Content Draft to:
+- **Path:** `working/content-draft.md`
+- **Format:** Markdown with the structure shown above (URL, Title Tag, Meta at top, then H-tags)
+
+This file will be used by downstream agents (internal-linker, seo-editor).
 
 ## Important Notes
 

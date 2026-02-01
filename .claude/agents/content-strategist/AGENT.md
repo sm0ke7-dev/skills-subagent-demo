@@ -1,7 +1,7 @@
 ---
 name: content-strategist
 description: Creates detailed content outlines based on SERP analysis and SEO requirements. Ensures logical section progression and comprehensive topic coverage. Use after SERP and SEO analysis is complete.
-tools: Read
+tools: Read, Write
 model: sonnet
 permissionMode: default
 skills:
@@ -165,6 +165,14 @@ Provide a structured Content Outline:
 - [Client-specific preferences from memory]
 - [Unique angles to differentiate from competition]
 ```
+
+## Save Output to File
+
+**IMPORTANT:** After completing your outline, save the Content Outline to:
+- **Path:** `working/content-outline.md`
+- **Format:** Markdown with the structure shown above
+
+This file will be used by downstream agents (content-writer, seo-editor).
 
 ## Important Notes
 
