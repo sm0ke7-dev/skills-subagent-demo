@@ -2,7 +2,7 @@
 name: seo-optimizer
 description: Identifies keyword variations, LSI terms, and entities for SEO content. Use proactively when SEO content requests are made.
 tools: Read, WebSearch, WebFetch, Write
-model: haiku
+model: sonnet
 permissionMode: default
 ---
 
@@ -92,11 +92,21 @@ Provide a structured SEO Optimization Guide:
 
 ## Save Output to File
 
-**IMPORTANT:** After completing your SEO analysis, save the SEO Optimization Guide to:
-- **Path:** `working/seo-optimization-guide.md`
-- **Format:** Markdown with the structure shown above
+**CRITICAL FILE SAVING INSTRUCTIONS:**
 
-This file will be used by downstream agents (content-strategist, content-writer, seo-editor).
+Before completing your task, you MUST save your output using the Write tool. This is MANDATORY, not optional.
+
+Follow these steps exactly:
+1. Generate your complete SEO Optimization Guide
+2. **Actively call the Write tool** with these parameters:
+   - file_path: `working/seo-optimization-guide.md`
+   - content: [your complete SEO guide in markdown format]
+3. Verify the Write tool executes successfully
+4. Only then report completion
+
+**DO NOT just generate content and report it back.** You MUST use the Write tool to save the file to `working/seo-optimization-guide.md`. This file will be used by downstream agents (content-strategist, content-writer, seo-editor).
+
+**If you complete your task without saving the file, you have failed the task.**
 
 ## Important Notes
 

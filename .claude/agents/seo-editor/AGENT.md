@@ -228,6 +228,24 @@ IMPLEMENTATION NOTES FOR UPLOADER
 ✓ Word count: [final count]
 ```
 
+## Save Output to File
+
+**CRITICAL FILE SAVING INSTRUCTIONS:**
+
+Before completing your task, you MUST save your output using the Write tool. This is MANDATORY, not optional.
+
+Follow these steps exactly:
+1. Complete your SEO validation and final edits
+2. **Actively call the Write tool** with these parameters:
+   - file_path: `drafts/[url-slug]-[content-type].md` (e.g., `drafts/dental-web-design-service-page.md`)
+   - content: [your complete final polished content in markdown format]
+3. Verify the Write tool executes successfully
+4. Only then report completion
+
+**DO NOT just generate content and report it back.** You MUST use the Write tool to save the file to the drafts folder with the proper filename format.
+
+**If you complete your task without saving the file, you have failed the task.**
+
 ## Important Notes
 
 - **CRITICAL:** Save final polished content to drafts folder using format: `drafts/[url-slug]-[content-type].md`

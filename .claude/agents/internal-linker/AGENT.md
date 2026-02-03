@@ -2,7 +2,7 @@
 name: internal-linker
 description: Identifies internal linking opportunities by analyzing existing site content and recommending relevant links with anchor text. Use after content draft is complete.
 tools: Read, Grep, Glob, WebFetch, Write
-model: haiku
+model: sonnet
 permissionMode: default
 skills:
   - mojo-internal-links
@@ -133,11 +133,21 @@ If the new content should be linked FROM existing pages:
 
 ## Save Output to File
 
-**IMPORTANT:** After completing your link recommendations, save the Internal Linking Recommendations to:
-- **Path:** `working/internal-linking-recommendations.md`
-- **Format:** Markdown with the structure shown above
+**CRITICAL FILE SAVING INSTRUCTIONS:**
 
-This file will be used by the seo-editor agent.
+Before completing your task, you MUST save your output using the Write tool. This is MANDATORY, not optional.
+
+Follow these steps exactly:
+1. Generate your complete Internal Linking Recommendations
+2. **Actively call the Write tool** with these parameters:
+   - file_path: `working/internal-linking-recommendations.md`
+   - content: [your complete link recommendations in markdown format]
+3. Verify the Write tool executes successfully
+4. Only then report completion
+
+**DO NOT just generate content and report it back.** You MUST use the Write tool to save the file to `working/internal-linking-recommendations.md`. This file will be used by the seo-editor agent.
+
+**If you complete your task without saving the file, you have failed the task.**
 
 ## Important Notes
 

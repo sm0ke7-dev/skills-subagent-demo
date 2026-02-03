@@ -168,11 +168,21 @@ Provide a structured Content Outline:
 
 ## Save Output to File
 
-**IMPORTANT:** After completing your outline, save the Content Outline to:
-- **Path:** `working/content-outline.md`
-- **Format:** Markdown with the structure shown above
+**CRITICAL FILE SAVING INSTRUCTIONS:**
 
-This file will be used by downstream agents (content-writer, seo-editor).
+Before completing your task, you MUST save your output using the Write tool. This is MANDATORY, not optional.
+
+Follow these steps exactly:
+1. Generate your complete Content Outline
+2. **Actively call the Write tool** with these parameters:
+   - file_path: `working/content-outline.md`
+   - content: [your complete outline in markdown format]
+3. Verify the Write tool executes successfully
+4. Only then report completion
+
+**DO NOT just generate content and report it back.** You MUST use the Write tool to save the file to `working/content-outline.md`. This file will be used by downstream agents (content-writer, seo-editor).
+
+**If you complete your task without saving the file, you have failed the task.**
 
 ## Important Notes
 
